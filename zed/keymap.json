@@ -1,22 +1,40 @@
 // Zed keymap
+
 //
+
 // For information on binding keys, see the Zed
+
 // documentation: https://zed.dev/docs/key-bindings
+
 //
+
 // To see the default key bindings run `zed: open default keymap`
+
 // from the command palette.
+
 [
   {
-    "context": "Workspace",
     "bindings": {
-      // "shift shift": "file_finder::Toggle"
+      "ctrl-q": null,
+      "ctrl-o": "projects::OpenRecent",
+      "ctrl-k ctrl-o": "workspace::Open"
     }
   },
   {
+    "context": "Workspace",
+    "bindings": {}
+  },
+
+  {
     "context": "Editor",
     "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
-      "shift-space": "editor::ShowCompletions"
+      "alt-/": "editor::ShowCompletions",
+      "ctrl-.": ["editor::ToggleComments", { "advance_downwards": false }],
+      "alt-w": ["pane::CloseInactiveItems", { "close_pinned": false }],
+      "shift-alt-f1": "pane::CloseItemsToTheLeft",
+      "shift-alt-f2": "pane::CloseItemsToTheRight",
+      "ctrl-alt-up": "editor::AddSelectionAbove",
+      "ctrl-alt-down": "editor::AddSelectionBelow"
     }
   }
 ]

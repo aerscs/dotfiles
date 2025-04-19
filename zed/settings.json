@@ -7,18 +7,65 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "base_keymap": "VSCode",
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+  "git_panel": {
+    "dock": "left"
   },
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "ui_font_family": "JetBrainsMono Nerd Font",
+  "soft_wrap": "editor_width",
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "ui_font_family": "GeistMono NF",
+  "buffer_font_family": "GeistMono NF",
   "theme": {
     "mode": "system",
-    "light": "Ayu Dark",
-    "dark": "One Dark"
+    "light": "One Light",
+    "dark": "Carbonfox"
+  },
+  "icon_theme": "Material Icon Theme",
+  "cursor_shape": "block",
+  "hide_mouse_while_typing": false,
+  "terminal": {
+    "dock": "right",
+    "font_family": "JetBrainsMono NF",
+    "font_size": 12
+  },
+  "experimental.theme_overrides": {
+    "editor.background": "#0a0a0a",
+    "terminal.background": "#0c0c0c",
+    "editor.gutter.background": "#0a0a0a",
+    "border": "#ffffff05",
+    "text.accent": "#69ff69",
+    "text.muted": "#ffffff50",
+    "players": [
+      {
+        "selection": "#6358b150"
+      }
+    ],
+    "modified": "#5194F2",
+    "syntax": {
+      "attribute": {
+        "color": "#5194F2"
+      },
+      "tag": {
+        "color": "#69ff69"
+      },
+      "type": {
+        "color": "#69ff69"
+      }
+    },
+    "editor.document_highlight.read_background": "#ffffff02",
+    "editor.document_highlight.write_background": "#ffffff02",
+    "editor.active_line.background": "#ffffff02",
+    "scrollbar.thumb.background": "#121212b3",
+    "editor.indent_guide": "#ffffff02",
+    "editor.indent_guide_active": "#ffffff04",
+    "editor.document_highlight.bracket_background": "#26946120",
+    "accents": [
+      "#8d4ef5",
+      "#5194f2",
+      "#5fd189",
+      "#fed64b",
+      "#f3844d",
+      "#ef5153"
+    ]
   }
 }
