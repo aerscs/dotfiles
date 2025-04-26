@@ -1,0 +1,1 @@
+    WARNING: The character ₽ (U+20bd) exists in the entry for VK_R, ShiftState 'Shift+Ctl+Alt' of the layout table and is not in the default system code page (1251) of the Russian (Russia) language you specified. This may cause compatibility problems in non-Unicode applications.

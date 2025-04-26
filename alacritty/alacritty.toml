@@ -1,0 +1,33 @@
+[terminal.shell]
+program = "pwsh"
+args = [
+    "--nologo"
+]
+
+
+[general]
+import = [
+    "C:/Users/Aers/AppData/Roaming/alacritty/themes/github_dark_high_contrast.toml"
+]
+
+[window]
+
+dimensions = {columns = 160, lines = 40}
+position = {x = 600, y = 200}
+
+padding.x = 16
+padding.y = 16
+
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Medium"
+
+[font.bold]
+family = "JetBrainsMono NF"
+style = "Bold"
+
+[font]
+size = 12
